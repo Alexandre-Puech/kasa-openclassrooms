@@ -1,0 +1,23 @@
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 209px;
+  gap: 29px;
+}
+.footer .footer-logo {
+  width: 122px;
+  height: 39px;
+  margin-top: 55px;
+}
+.footer .footer-text {
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=Footer.css.map */
