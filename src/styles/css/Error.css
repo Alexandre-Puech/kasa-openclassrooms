@@ -1,0 +1,9 @@
+.error-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 139px;
+}
+
+/*# sourceMappingURL=Error.css.map */

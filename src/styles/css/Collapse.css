@@ -31,13 +31,10 @@
   transform: rotate(-180deg);
 }
 .collapse .collapse-content {
-  max-height: 0;
+  height: 0px;
   overflow: hidden;
   padding: 0px 15px 0px 15px;
-  transition: max-height 0.3s ease-out;
-}
-.collapse .collapse-content.open {
-  max-height: 500px;
+  transition: height 0.3s ease;
 }
 .collapse .collapse-content p {
   font-size: 18px;

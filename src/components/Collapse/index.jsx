@@ -1,12 +1,22 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import "../../styles/scss/Collapse.scss";
 import buttonIcon from "../../assets/collapse-button.svg";
 
 function Collapse({ title, content }) {
   const [isOpen, setIsOpen] = useState(false);
+  const contentRef = useRef(null);
+
   const toggleCollapse = () => {
     setIsOpen((prev) => !prev);
   };
+
+  useEffect(() => {
+    if (contentRef.current) {
+      contentRef.current.style.height = isOpen
+        ? contentRef.current.scrollHeight + "px"
+        : "0px";
+    }
+  }, [isOpen]);
 
   return (
     <div className="collapse">
@@ -19,10 +29,11 @@ function Collapse({ title, content }) {
           <img src={buttonIcon} alt="Bouton" />
         </button>
       </div>
-      <div className={isOpen ? "collapse-content open" : "collapse-content"}>
+      <div ref={contentRef} className="collapse-content">
         <p>{content}</p>
       </div>
     </div>
   );
 }
+
 export default Collapse;

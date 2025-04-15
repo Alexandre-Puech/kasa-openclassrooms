@@ -1,0 +1,28 @@
+$main-color: #ff6060;
+
+.error404-body {
+  display: flex;
+  flex-direction: column;
+
+  gap: 139px;
+  align-items: center;
+  .error404-icon {
+    color: $main-color;
+    font-size: 288px;
+    font-weight: 700;
+    margin: 0;
+  }
+  .error404-message {
+    color: $main-color;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+  }
+  .home-link {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+  }
+}

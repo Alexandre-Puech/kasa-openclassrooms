@@ -1,0 +1,27 @@
+.error404-body {
+  display: flex;
+  flex-direction: column;
+  gap: 139px;
+  align-items: center;
+}
+.error404-body .error404-icon {
+  color: #ff6060;
+  font-size: 288px;
+  font-weight: 700;
+  margin: 0;
+}
+.error404-body .error404-message {
+  color: #ff6060;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+.error404-body .home-link {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/*# sourceMappingURL=Error-404.css.map */
