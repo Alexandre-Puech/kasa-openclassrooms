@@ -1,0 +1,59 @@
+.collapse {
+  display: flex;
+  flex-direction: column;
+}
+.collapse .collapse-preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  width: 100%;
+  background-color: #ff6060;
+  padding: 10px 20px 9px 15px;
+  border-radius: 5px;
+}
+.collapse .collapse-preview .collapse-title {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+.collapse .collapse-preview .collapse-button {
+  background: none;
+  border: none;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+.collapse .collapse-preview .collapse-button.open {
+  transform: rotate(-180deg);
+}
+.collapse .collapse-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0px 15px 0px 15px;
+  transition: max-height 0.3s ease-out;
+}
+.collapse .collapse-content.open {
+  max-height: 500px;
+}
+.collapse .collapse-content p {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .collapse .collapse-preview {
+    height: 30px;
+    padding: 10px;
+  }
+  .collapse .collapse-preview .collapse-title {
+    font-size: 13px;
+  }
+  .collapse .collapse-content p {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=Collapse.css.map */

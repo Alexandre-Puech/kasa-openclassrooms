@@ -1,15 +1,13 @@
 import { Outlet } from "react-router-dom";
-import Header from "../Header/index.jsx";
-import Footer from "../Footer/index.jsx";
 
-function Layout() {
+function Layout({ header, footer }) {
   return (
     <div className="appLayout">
-      <Header />
+      {header}
       <main>
         <Outlet />
       </main>
-      <Footer />
+      {footer}
     </div>
   );
 }

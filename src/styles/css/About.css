@@ -1,0 +1,26 @@
+.about-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 100px 50px 100px;
+  gap: 38px;
+}
+.about-body .collapses-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 108px 0px 108px;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .about-body {
+    margin: 19px;
+    gap: 19px;
+  }
+  .about-body .collapses-container {
+    margin: 0px;
+    margin-right: 19px;
+    gap: 20px;
+  }
+}
+
+/*# sourceMappingURL=About.css.map */
