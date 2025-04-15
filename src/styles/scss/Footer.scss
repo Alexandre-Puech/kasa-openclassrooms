@@ -19,3 +19,14 @@
     text-align: center;
   }
 }
+
+@media (max-width: 767.98px) {
+  .footer {
+    height: 209px;
+    gap: 0px;
+    .footer-text {
+      max-width: 134px;
+      font-size: 12px;
+    }
+  }
+}

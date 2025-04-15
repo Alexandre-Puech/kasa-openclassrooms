@@ -24,4 +24,23 @@
   text-decoration: none;
 }
 
+@media (max-width: 767.98px) {
+  .home-body {
+    margin: 7px 20px 27px 20px;
+    gap: 22px;
+  }
+  .home-body .cards-container {
+    gap: 20px;
+    padding: 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: white;
+  }
+  .home-body .cards-container > * {
+    flex: none;
+    max-width: none;
+    aspect-ratio: unset;
+  }
+}
+
 /*# sourceMappingURL=Home.css.map */

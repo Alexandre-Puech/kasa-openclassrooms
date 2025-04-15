@@ -20,5 +20,24 @@
   font-weight: 500;
   font-size: 24px;
 }
+.header .nav .active {
+  text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    margin: 20px;
+  }
+  .header .header-logo {
+    width: 145px;
+    height: 47px;
+  }
+  .header .nav {
+    gap: 26px;
+  }
+  .header .nav .nav-link {
+    font-size: 12px;
+  }
+}
 
 /*# sourceMappingURL=Header.css.map */
