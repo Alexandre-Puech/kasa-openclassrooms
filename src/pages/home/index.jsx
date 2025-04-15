@@ -3,7 +3,7 @@ import "../../styles/css/Home.css";
 import Logements from "../../data/logements.json";
 import Card from "../../components/Card/index.jsx";
 
-function App() {
+function Home() {
   return (
     <div className="home-body">
       <Banner
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

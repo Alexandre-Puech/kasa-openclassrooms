@@ -1,4 +1,4 @@
-function App() {
+function Accomodation() {
   return (
     <>
       <p>LOGEMENT</p>
@@ -6,4 +6,4 @@ function App() {
   );
 }
 
-export default App;
+export default Accomodation;

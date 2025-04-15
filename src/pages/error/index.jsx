@@ -1,6 +1,6 @@
 //import "../../styles/css/App.css";
 
-function App() {
+function Error() {
   return (
     <>
       <div>
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default Error;
