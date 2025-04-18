@@ -18,7 +18,7 @@
   text-decoration: none;
   color: black;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.3333333333rem;
 }
 .header .nav .active {
   text-decoration: underline;
@@ -36,7 +36,7 @@
     gap: 26px;
   }
   .header .nav .nav-link {
-    font-size: 12px;
+    font-size: 0.6666666667rem;
   }
 }
 

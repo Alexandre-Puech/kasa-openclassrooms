@@ -29,8 +29,11 @@ function Collapse({ title, content }) {
           <img src={buttonIcon} alt="Bouton" />
         </button>
       </div>
-      <div ref={contentRef} className="collapse-content">
-        <p>{content}</p>
+      <div
+        ref={contentRef}
+        className={isOpen ? "collapse-content open" : "collapse-content"}
+      >
+        <div className="collapse-content-text">{content}</div>
       </div>
     </div>
   );

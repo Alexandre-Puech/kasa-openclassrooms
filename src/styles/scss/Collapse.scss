@@ -1,28 +1,28 @@
+@import "variables";
+@import "mixins";
+
 .collapse {
   display: flex;
   flex-direction: column;
   .collapse-preview {
-    display: flex;
+    @include flex-space;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     height: 52px;
-    width: 100%;
-    background-color: #ff6060;
-    padding: 10px 20px 9px 15px;
+    background-color: $primary-color;
+    padding: 0px 20px 0px 15px;
     border-radius: 5px;
+    z-index: 1;
     .collapse-title {
       color: white;
-      font-size: 24px;
+      font-size: rem(24);
       font-weight: 700;
     }
     .collapse-button {
+      @include flex-center;
       background: none;
       border: none;
       width: 32px;
       height: 32px;
-      align-items: center;
-      justify-content: center;
       transition: transform 0.3s ease;
 
       &.open {
@@ -31,12 +31,19 @@
     }
   }
   .collapse-content {
-    height: 0px;
     overflow: hidden;
     padding: 0px 15px 0px 15px;
     transition: height 0.3s ease;
-    p {
-      font-size: 18px;
+    background-color: #f6f6f673;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    &.open {
+      margin-top: -8px;
+      z-index: 0;
+    }
+    .collapse-content-text {
+      margin-top: 16px;
+      font-size: 1rem;
     }
   }
 }
@@ -44,15 +51,16 @@
 @media (max-width: 768px) {
   .collapse {
     .collapse-preview {
-      height: 30px;
+      height: 10px;
       padding: 10px;
       .collapse-title {
-        font-size: 13px;
+        font-size: rem(13);
       }
     }
     .collapse-content {
-      p {
-        font-size: 12px;
+      .collapse-content-text {
+        font-size: rem(12);
+        margin-top: 13px;
       }
     }
   }

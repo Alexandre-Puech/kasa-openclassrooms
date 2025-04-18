@@ -1,28 +1,43 @@
-$main-color: #ff6060;
+@import "variables";
+@import "mixins";
 
 .error404-body {
-  display: flex;
+  @include flex-center;
   flex-direction: column;
-
   gap: 139px;
-  align-items: center;
   .error404-icon {
-    color: $main-color;
-    font-size: 288px;
+    color: $primary-color;
+    font-size: rem(288);
     font-weight: 700;
     margin: 0;
   }
   .error404-message {
-    color: $main-color;
-    font-size: 36px;
+    color: $primary-color;
+    font-size: rem(36);
     font-weight: 500;
     margin: 0;
     text-align: center;
   }
   .home-link {
     color: black;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 500;
     margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .error404-body {
+    gap: 113px;
+    .error404-icon {
+      font-size: rem(96);
+    }
+    .error404-message {
+      font-size: rem(18);
+    }
+    .home-link {
+      font-size: rem(14);
+      text-wrap: nowrap;
+    }
   }
 }

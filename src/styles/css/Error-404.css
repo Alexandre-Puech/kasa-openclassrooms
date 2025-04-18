@@ -1,27 +1,44 @@
 .error404-body {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 139px;
-  align-items: center;
 }
 .error404-body .error404-icon {
   color: #ff6060;
-  font-size: 288px;
+  font-size: 16rem;
   font-weight: 700;
   margin: 0;
 }
 .error404-body .error404-message {
   color: #ff6060;
-  font-size: 36px;
+  font-size: 2rem;
   font-weight: 500;
   margin: 0;
   text-align: center;
 }
 .error404-body .home-link {
   color: black;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 500;
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .error404-body {
+    gap: 113px;
+  }
+  .error404-body .error404-icon {
+    font-size: 5.3333333333rem;
+  }
+  .error404-body .error404-message {
+    font-size: 1rem;
+  }
+  .error404-body .home-link {
+    font-size: 0.7777777778rem;
+    text-wrap: nowrap;
+  }
 }
 
 /*# sourceMappingURL=Error-404.css.map */

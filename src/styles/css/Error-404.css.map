@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/Error-404.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EAEA;EACA;;AACA;EACE,OATS;EAUT;EACA;EACA;;AAEF;EACE,OAfS;EAgBT;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA","file":"Error-404.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/Error-404.scss","../scss/_mixins.scss","../scss/_variables.scss"],"names":[],"mappings":"AAGA;ECFE;EACA;EACA;EDEA;EACA;;AACA;EACE,OERY;EFSZ;EACA;EACA;;AAEF;EACE,OEdY;EFeZ;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;;;AAIJ;EACE;IACE;;EACA;IACE;;EAEF;IACE;;EAEF;IACE;IACA","file":"Error-404.css"}

@@ -1,0 +1,175 @@
+.logement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.logement .logement-upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+.logement .logement-upper .logement-left {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.logement .logement-upper .logement-left .logement-header-text .logement-title {
+  color: #ff6060;
+  font-size: 2rem;
+  margin: 0px;
+  font-weight: 500;
+  width: 100%;
+}
+.logement .logement-upper .logement-left .logement-header-text .logement-location {
+  margin: 0px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.logement .logement-upper .logement-left .tags-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.logement .logement-upper .logement-left .tags-container .tag {
+  width: 115px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #ff6060;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 0.7777777778rem;
+  line-height: 200%;
+}
+.logement .logement-upper .logement-right {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 21px;
+}
+.logement .logement-upper .logement-right .owner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.logement .logement-upper .logement-right .owner .owner-name {
+  font-size: 1rem;
+  color: #ff6060;
+  font-weight: 500;
+}
+.logement .logement-upper .logement-right .owner .owner-picture {
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+}
+.logement .logement-upper .logement-right .rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 196px;
+  height: 36px;
+  gap: 4px;
+}
+.logement .logement-upper .logement-right .rating .rating-star {
+  height: 36px;
+  width: 36px;
+}
+.logement .logement-upper .logement-right .rating .rating-star img {
+  width: 24px;
+  height: 24px;
+}
+.logement .logement-collapses {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 76px;
+}
+.logement .logement-collapses > * {
+  flex: 1 1 calc((100% - 76px) / 2);
+  max-width: calc((100% - 76px) / 2);
+}
+.logement .logement-collapses .collapse-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.logement .logement-collapses li {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .logement {
+    width: 100%;
+    gap: 15px;
+  }
+  .logement .logement-upper {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .logement .logement-upper .logement-left {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  .logement .logement-upper .logement-left .logement-header-text .logement-title {
+    font-size: 1rem;
+  }
+  .logement .logement-upper .logement-left .logement-header-text .logement-location {
+    font-size: 0.7777777778rem;
+  }
+  .logement .logement-upper .logement-left .tags-container .tag {
+    width: 84px;
+    height: 18px;
+    font-size: 0.5555555556rem;
+  }
+  .logement .logement-upper .logement-right {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .logement .logement-upper .logement-right .owner .owner-name {
+    font-size: 0.6666666667rem;
+  }
+  .logement .logement-upper .logement-right .owner .owner-picture {
+    width: 32px;
+    height: 32px;
+  }
+  .logement .logement-upper .logement-right .rating {
+    width: 98px;
+    height: 18px;
+    gap: 2px;
+  }
+  .logement .logement-upper .logement-right .rating .rating-star {
+    height: 18px;
+    width: 18px;
+  }
+  .logement .logement-upper .logement-right .rating .rating-star img {
+    width: 13px;
+    height: 13px;
+  }
+  .logement .logement-collapses {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .logement .logement-collapses > * {
+    flex: none;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=Accomodation-body.css.map */

@@ -1,9 +1,9 @@
 .banner {
   display: flex;
-  background-size: cover;
-  background-position: center;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-position: center;
   width: auto;
   height: 223px;
   border: 1px;
@@ -12,7 +12,7 @@
 }
 .banner .banner-text {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 2.6666666667rem;
   color: white;
 }
 
@@ -21,7 +21,7 @@
     height: 111px;
   }
   .banner .banner-text {
-    font-size: 24px;
+    font-size: 1.3333333333rem;
     margin-left: 16px;
   }
 }
