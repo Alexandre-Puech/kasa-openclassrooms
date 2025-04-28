@@ -1,4 +1,4 @@
-import "../../styles/css/Error-404.css";
+import "../styles/css/Error-404.css";
 import { Link } from "react-router";
 
 function Error404() {

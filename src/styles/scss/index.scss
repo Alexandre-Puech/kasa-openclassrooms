@@ -4,4 +4,10 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: $base-font-size;
+  height: 100%;
+  main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 }

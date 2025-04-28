@@ -45,6 +45,7 @@
 }
 .collapse .collapse-content .collapse-content-text {
   margin-top: 16px;
+  margin-bottom: 10px;
   font-size: 1rem;
 }
 
@@ -59,6 +60,7 @@
   .collapse .collapse-content .collapse-content-text {
     font-size: 0.6666666667rem;
     margin-top: 13px;
+    margin-bottom: 8px;
   }
 }
 

@@ -1,7 +1,7 @@
-import Banner from "../../components/Banner/index.jsx";
-import "../../styles/css/Home.css";
-import Logements from "../../data/logements.json";
-import Card from "../../components/Card/index.jsx";
+import Banner from "../components/Banner.jsx";
+import "../styles/css/Home.css";
+import Logements from "../data/logements.json";
+import Card from "../components/Card.jsx";
 
 function Home() {
   return (

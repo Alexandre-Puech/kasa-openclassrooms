@@ -1,12 +1,10 @@
 import { Outlet } from "react-router-dom";
 
-function Layout({ header, footer }) {
+function Layout({ header, footer, children }) {
   return (
     <div className="appLayout">
       {header}
-      <main>
-        <Outlet />
-      </main>
+      <main>{children}</main>
       {footer}
     </div>
   );

@@ -1,5 +1,5 @@
-import "../../styles/css/Error.css";
-import Error404 from "../../components/Error-404";
+import "../styles/css/Error.css";
+import Error404 from "../components/Error-404";
 
 function Error() {
   return (

@@ -1,5 +1,5 @@
-import FullStar from "../../../assets/full-star.svg";
-import EmptyStar from "../../../assets/empty-star.svg";
+import FullStar from "../assets/full-star.svg";
+import EmptyStar from "../assets/empty-star.svg";
 
 function RatingScale({ rating }) {
   const totalStars = 5;

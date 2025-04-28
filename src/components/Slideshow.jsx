@@ -1,5 +1,5 @@
-import "../../styles/css/Slideshow.css";
-import buttonIcon from "../../assets/collapse-button.svg";
+import "../styles/css/Slideshow.css";
+import buttonIcon from "../assets/collapse-button.svg";
 import { useState } from "react";
 
 function Slideshow({ pictures }) {

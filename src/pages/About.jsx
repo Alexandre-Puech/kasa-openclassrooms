@@ -1,6 +1,6 @@
-import Banner from "../../components/Banner/index.jsx";
-import Collapse from "../../components/Collapse/index.jsx";
-import "../../styles/css/About.css";
+import Banner from "../components/Banner.jsx";
+import Collapse from "../components/Collapse.jsx";
+import "../styles/css/About.css";
 
 function About() {
   return (

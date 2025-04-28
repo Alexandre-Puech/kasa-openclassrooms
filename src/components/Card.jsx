@@ -1,4 +1,4 @@
-import "../../styles/css/Card.css";
+import "../styles/css/Card.css";
 import { Link } from "react-router";
 
 function Card({ id, cover, title, link }) {

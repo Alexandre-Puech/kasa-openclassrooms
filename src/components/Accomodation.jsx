@@ -1,8 +1,8 @@
-import "../../styles/css/Accomodation-body.css";
-import Owner from "./Owner/index.jsx";
-import Rating from "./Rating/index.jsx";
-import Tags from "./Tags/index.jsx";
-import Collapse from "../Collapse/index.jsx";
+import "../styles/css/Accomodation-body.css";
+import Owner from "./Owner.jsx";
+import Rating from "./Rating.jsx";
+import Tags from "./Tags.jsx";
+import Collapse from "./Collapse.jsx";
 
 function Logement({
   title,

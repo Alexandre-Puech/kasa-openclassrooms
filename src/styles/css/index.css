@@ -2,6 +2,12 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
+  height: 100%;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=index.css.map */

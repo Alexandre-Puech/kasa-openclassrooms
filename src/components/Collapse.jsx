@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
-import "../../styles/scss/Collapse.scss";
-import buttonIcon from "../../assets/collapse-button.svg";
+import "../styles/scss/Collapse.scss";
+import buttonIcon from "../assets/collapse-button.svg";
 
 function Collapse({ title, content }) {
   const [isOpen, setIsOpen] = useState(false);
